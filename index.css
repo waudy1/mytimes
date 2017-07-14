@@ -1,0 +1,228 @@
+header {
+	font-size: 14px;
+	font-family: verdana;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid black;
+	z-index: 1;
+	position: fixed;
+	background-color: white;
+}
+
+body {
+	background-color: white;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	padding-left: 30px;
+}
+
+.logo span {
+	color: aquamarine;
+}
+
+.logo img {
+	width: 70px;
+	height: 60px;
+	margin-right: 12px;
+}
+
+header nav {
+	padding-right: 40px;
+}
+
+a {
+	color: black;
+}
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+body {
+	margin: 0;
+}
+
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+
+.column.large {
+	display: flex;
+	flex-direction: column;
+	width: 630px;
+	margin-right: 32px;
+}
+
+div.lead-story {
+	display: block;
+}
+
+div.image-content {
+	display: flex;
+	background-image: url(./images/wine.png);
+	background-size: cover;
+	margin-top: 0;
+	text-align: left;
+	height: 300px;
+}
+
+div.image-content span {
+	font-size: 40px;
+	color: white;
+	font-family: Georgia;
+	font-weight: bold;
+}
+
+.narrative {
+	display: block;
+}
+
+div.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+div.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+div.text-content {
+	display: block;
+	height: 250px;
+}
+
+.nice {
+	font-weight: bold;
+}
+
+div.fall-image {
+	background-image: url(./images/fall.png);
+	display: block;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+div.fall-image span {
+	color: white;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+div.camera-image {
+	background-image: url(./images/man.png);
+	display: block;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+div.camera-image span {
+	color: slateblue;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+
+}
+
+.column.medium {
+	width: 300px;
+}
+
+div.cat-image {
+	background-image: url(./images/cat.png);
+	display: block;
+	background-size: cover;
+	height: 300px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+div.cat-image span {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+}
+
+div.column.small {
+	width: 240px;
+}
+
+div.news-bites {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 41px;
+}
+.bite {
+	font-size: 12px;
+	display: block;
+	padding: 11px 20px;
+	border-bottom: 1px solid black;
+	background-color: whitesmoke;
+	font-family: verdana;
+	color: dimgray;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	height: 325px;
+	background-color: aquamarine;
+	margin: auto;
+	font-size: 12px;
+	font-family: verdana;
+}
+
+.info {
+	display: block;
+}
+
+.title {
+	display: inline-block;
+	padding-right: 25px;
+	border-right: 2px solid white;
+	font-size: 16px;
+	font-family: Georgia;
+	color: white;
+	font-weight: bold;
+}
+
+.navfoot {
+	display: inline-block;
+	padding-left: 25px;
+}
+
+.spanfoot {
+	display: inline-block;
+	padding: 20px 10px;
+}
+
+.copyright {
+	display: block;
+}
+
+
+
